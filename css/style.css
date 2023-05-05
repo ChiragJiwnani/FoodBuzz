@@ -1,0 +1,339 @@
+/* CSS Reset  */
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+html{
+   scroll-behavior: smooth; 
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+    
+}
+
+/* Navigation Bar  */
+#navbar{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+/* Navigation Bar: logo and image   */
+#logo{
+    margin-right:50px;
+}
+
+#logo img{
+    height: 50px;
+    width: 50px;
+    margin: 0px 0px;
+    opacity: 1;
+    margin-left: 6px;
+    margin-top: 5px;
+
+}
+
+/* Navigation Bar: Dispaly styling */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+}
+#navbar::before{
+    content:"" ;
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 15px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+#navbar ul li a:hover{
+    color: yellow;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    height: 490px;
+    align-items: center;
+}
+#home::before{
+    content:"" ;
+    background: url('./Restaurant website/foodtable.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1{
+    color: black;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+#home p{
+    color: black;
+    font-size: 1.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+/* Services Section  */
+
+#services{
+    margin: 33px;
+    display: flex;
+    
+}
+#services .box1{
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 2px 0px;
+    margin: 2px 6px;
+    border-radius: 10px;
+    background-color: rgb(37, 35, 35);
+    font-family: 'Varela Round', sans-serif;
+}
+#services .box2{
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 2px 15px;
+    margin: 2px 6px;
+    border-radius: 10px;
+    background-color: rgb(37, 35, 35);
+    font-family: 'Varela Round', sans-serif;
+}
+#services .box3{
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 2px 15px;
+    margin: 2px 6px;
+    border-radius: 10px;
+    background-color: rgb(37, 35, 35);
+    font-family: 'Varela Round', sans-serif;
+}
+#services .box1 img{
+    /* border: 2px solid red; */
+    height: 150px;
+    justify-content: center;
+    margin-right: 56px;
+    display: block;
+    padding-top: 30px;
+}
+#services .box2 img{
+    /* border: 2px solid red; */
+    height: 145px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+    display: block;
+}
+#services .box3 img{
+    /* border: 2px solid red; */
+    height: 147px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+}
+#services .box .textcenter{
+    text-align: center;
+}
+
+/* Sponser Section  */
+
+#sponser-section{
+    height: 344px;
+    /* position: relative; */
+}
+#sponser-section::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(175, 175, 175);
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#sponser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sponser .sponser-item1 img{
+    height:200px;
+    padding: 20px;
+}
+#sponser .sponser-item2 img{
+    height: 45px;
+    padding: 20px;
+}
+#sponser .sponser-item3 img{
+    height:140px;
+    padding: 20px;
+}
+#sponser .sponser-item4 img{
+    height: 120px;
+    padding: 20px;
+}
+
+/* Contact Section */
+
+#contact{
+    position: relative;
+}
+#contact h3{
+    color: black;
+    opacity: 0.6;
+    
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    background-color: black;
+    
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-bottom: 30px;
+    padding-left: 30px;
+
+}
+#contact-box input,#contact-box textarea{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.5rem;
+    font-family:'Varela Round', sans-serif;
+}
+
+/* Footers  */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+/* Utility classes */
+
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+    font-family: 'Varela Round', sans-serif;
+}
+.h-primary-center{
+    font-size: 3rem;
+    padding: 12px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+.h-secondary{
+    font-size: 1.7rem;
+    padding: 12px;
+    color: white;
+}
+#services .box1 p{
+    color: white;
+    padding: 0px 25px;
+}
+p{
+    color: white;
+}
+
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    margin: 15px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    }
+.btn:hover{
+    color: yellow;
+    border: 2px solid yellow;
+    transform: scale(1.03);
+}
+.center{
+    text-align: center;
+}
+
+
+
+
+/* section{
+
+} */
+/* body{
+    
+    top: 0%;
+    left: 0%;
+    
+}
+input[type='text']{
+    border: 2px solid red;
+}
+.container{
+  
+}
+h1{
+    
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+header{
+    border: 4px solid red;
+    height: 25vh;
+    width: 100vw;
+    position: absolute;
+    background: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg) no-repeat center center/cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+} */

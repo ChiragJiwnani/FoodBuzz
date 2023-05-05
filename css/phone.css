@@ -1,0 +1,74 @@
+/* body{ */
+    /* background-color: red; */
+/* } */
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 6px 7px;
+}
+
+/* Home section  */
+#home{
+    height: 370px;
+    padding: 20px 20px;
+    /* flex-direction: column; */
+}
+#home::before{
+    height: 460px;
+}
+#home p{
+    font-size: 1.2rem;
+}
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+
+/* Sponser section */
+#sponser{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+#sponser .sponser-item1 img{
+    height:80px;
+    /* height:auto; */
+    padding: 5px;
+}
+#sponser .sponser-item2 img{
+    height: 20px;
+    /* height:auto; */
+    padding: 20px;
+}
+#sponser .sponser-item3 img{
+    height:50px;
+    /* height:auto; */
+    padding: 20px;
+}
+#sponser .sponser-item4 img{
+    height: 40px;
+    /* height:auto; */
+    padding: 20px;
+}
+/* Contact Section */
+
+#contact-box form{
+    width: 80%;
+}
+/* Utility classes */
+
+.h-primary {
+    font-size: 1.8rem;
+}
+.h-primary p{
+    font-size: 3rem;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px  8px;
+}
