@@ -4,6 +4,11 @@
 /* Navigation */
 #navbar{
     flex-direction: column;
+<<<<<<< HEAD
+    justify-content: center;
+    align-items: center;
+=======
+>>>>>>> 2a6436b539c7ec7327c27f06500d5f317e689e38
 }
 
 #navbar ul li a{
@@ -11,9 +16,24 @@
     padding: 6px 7px;
 }
 
+<<<<<<< HEAD
+#navbar ul li a:hover{
+    color: black;
+    /* background-color: black; */
+    /* opacity: 0.8; */
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+/* Home section  */
+#home{
+    height: 326px;
+=======
 /* Home section  */
 #home{
     height: 370px;
+>>>>>>> 2a6436b539c7ec7327c27f06500d5f317e689e38
     padding: 20px 20px;
     /* flex-direction: column; */
 }
@@ -29,12 +49,26 @@
     flex-direction: column;
 }
 
+<<<<<<< HEAD
+#services-container{
+    height: 1065px;
+}
+
+=======
+>>>>>>> 2a6436b539c7ec7327c27f06500d5f317e689e38
 /* Sponser section */
 #sponser{
     overflow: hidden;
     flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
+#sponser-section{
+    height: 325px;
+}
+
+=======
+>>>>>>> 2a6436b539c7ec7327c27f06500d5f317e689e38
 #sponser .sponser-item1 img{
     height:80px;
     /* height:auto; */
@@ -63,10 +97,23 @@
 /* Utility classes */
 
 .h-primary {
+<<<<<<< HEAD
+    font-size: 1.6rem;
+    padding: 30px;
+}
+
+.h-primary-center{
+    font-size: 1.6rem;
+}
+
+.h-primary p{
+    font-size: 2rem;
+=======
     font-size: 1.8rem;
 }
 .h-primary p{
     font-size: 3rem;
+>>>>>>> 2a6436b539c7ec7327c27f06500d5f317e689e38
 }
 .btn{
     font-size: 13px;
